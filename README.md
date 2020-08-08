@@ -1,4 +1,4 @@
-Connect to Raspberry pi device using SSH without monitor.
+Connect to Raspberry pi using SSH, no monitor required.
 ----
 
 This SSH connection after SD card boot requires three main steps in order to work, and also all the steps below were done using a mac OS operating system, but I really don't think that this will make a big difference.
