@@ -1,5 +1,5 @@
 # Raspberry-Pi-Conf
-Connect to Raspberry pi device using SSH without connecting to a monitor
+Connect to Raspberry pi device using SSH without monitor.
 
 Raspberry pi boot
 -----
