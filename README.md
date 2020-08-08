@@ -26,13 +26,11 @@ Since we have no monitor available we need 2 things.
 
 - To enable SSH we need to get the card and plug it in our computer then go to your SD card (Volumes/boot).      
            
-<img src="https://github.com/ManolescuSebastian/Raspberry-Pi-SHH-NO-Monitor/blob/master/res-img/boot_finder_img.png" width="40%"></img>  
+<img src="https://github.com/ManolescuSebastian/Raspberry-Pi-SHH-NO-Monitor/blob/master/res-img/boot_finder_img.png" width="50%"></img>  
 
 Then create a file named ***ssh*** on the SD card (**NO extension required**).      
 
 ```touch ssh```
-
-<img src="https://github.com/ManolescuSebastian/Raspberry-Pi-Conf/blob/master/res-img/touch-img.png" width="100%"></img>
 
 Config WIFI connection
 -----
