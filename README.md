@@ -25,7 +25,7 @@ Since we have no monitor available we need 2 things.
 
 
 - To enable SSH we need to get the card and plug it in our computer then go to your SD card (Volumes/boot).      
-// todo add image.      
+<img src="https://github.com/ManolescuSebastian/Raspberry-Pi-SHH-NO-Monitor/blob/master/res-img/boot_finder_img.png" width="50%"></img>  
 
 Then create a file named ***ssh*** on the SD card (**NO extension required**).      
 
