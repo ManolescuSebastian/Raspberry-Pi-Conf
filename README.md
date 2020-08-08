@@ -1,7 +1,7 @@
 # Raspberry-Pi-Conf
 Connect to Raspberry pi device using SSH without connecting to a monitor
 
-Raspberry pi boot / connect to WIFI / connect to device via SSH
+Raspberry pi boot
 -----
 
 Download ***Raspberry Pi Imager*** from https://www.raspberrypi.org/downloads/ and install the desired version (if you plan never to use a monitor and connect via SSH I wouls sugget getting the Lite version).        
@@ -31,6 +31,9 @@ Then create a file named ***ssh*** on the SD card (**NO extension required**).
 
 <img src="https://github.com/ManolescuSebastian/Raspberry-Pi-Conf/blob/master/res-img/touch-img.png" width="100%"></img>
 
+Config WIFI connection
+-----
+
 And after we have the ssh file we need to create the WIFI configuration file, so that we are able to connect to our local network.        
 For that we need to create the file ***wpa_supplicant.conf***          
 Open file with an editor.     
@@ -58,7 +61,8 @@ Open terminal and in order to find the raspberry pi IP addedss we need to add th
          
 <img src="https://github.com/ManolescuSebastian/Raspberry-Pi-Conf/blob/master/res-img/arp_a_raspberry_ip.jpg" width="100%"></img>
 
-
+Connect to device via SSH
+-----
 After we found the IP address we connect to the rasperry pi using SSH command:
 
 ```ssh pi@192.168.X.X```
